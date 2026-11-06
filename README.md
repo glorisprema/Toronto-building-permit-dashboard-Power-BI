@@ -2,7 +2,14 @@
 
 Analyzed City of Toronto Building Permits from 1980-2024 to track permit volume, status, and construction value trends over 44 years.
 
-**Data Source:** City of Toronto Open Data - Building Permits
+## Data Source
+**City of Toronto Open Data - Building Permits**
+
+- Active Permits: https://open.toronto.ca/dataset/building-permits-active-permits/
+- Cleared Permits: https://open.toronto.ca/dataset/building-permits-cleared-permits/
+- Portal: https://open.toronto.ca/
+
+Dataset is public under Open Government Licence - Toronto. Downloaded as CSV and imported into Power BI.
 
 ![Dashboard](Building%20Permit%20Dashboard.png)
 
@@ -32,6 +39,3 @@ Power BI Desktop, Power Query, DAX
 ## Files in this Repo
 - `Building Permit Dashboard.png` - Dashboard screenshot
 - `Toronto-Building-Permit-Dashboard.pbix` - Power BI file (65.8MB) - Available on request, too large for GitHub web upload (25MB limit)
-
-## How to View
-Download the screenshot above for full dashboard view. PBIX available on request for live filtering.
