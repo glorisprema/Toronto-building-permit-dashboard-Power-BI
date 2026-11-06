@@ -19,6 +19,16 @@ Dataset is public under Open Government Licence - Toronto. Downloaded as 1 CSV a
 - **Open Permits:** 38K (19.24%)
 - **In Progress Permits:** 156K (77.97%)
 
+### 1. Year Bucket (New)
+Created a custom Year Bucket column in Power Query / DAX to group 44 years into clear periods for trend analysis:
+- 1980 - 1989
+- 1990 - 1999
+- 2000 - 2009
+- 2010 - 2019
+- 2020 - 2024
+
+This makes it easy to compare construction activity across decades instead of looking at 44 individual years.
+
 ## Key Insights
 1. **Permit volume exploded after 2020** - stayed flat until 2000, then steady growth, then sharp spike to 25K+ per year.
 2. **78% are still In Progress** - huge backlog, very few permits are fully closed.
